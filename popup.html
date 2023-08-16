@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Numpy Array Formatter</title>
+    <style>
+        body {
+            width: 250px;
+            font-family: Arial, sans-serif;
+            margin: 15px;
+            background-color: #f4f4f4;
+        }
+        
+        h3 {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h3>Enter Matrix:</h3>
+    <textarea id="matrixInput" rows="5"></textarea>
+    <button id="convertButton">Convert</button>
+    <h3>Numpy Format:</h3>
+    <textarea id="numpyOutput" rows="5" readonly></textarea>
+    <script src="popup.js"></script>
+</body>
+</html>
